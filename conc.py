@@ -120,7 +120,7 @@ def main():
 
     docx_file_1 = sys.argv[1]
     docx_file_2 = sys.argv[2]
-    output_file = "output.html"
+    output_file = "reg_duma.html"
 
     # Create an instance of the converter class
     converter = DocxToHtmlConverter(docx_file_1, docx_file_2, output_file)
